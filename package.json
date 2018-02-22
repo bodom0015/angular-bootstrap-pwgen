@@ -1,14 +1,15 @@
 {
   "name": "angular-bootstrap-pwgen",
   "version": "0.1.4",
-  "authors": [
-    "Sebastian Hammerl, Getslash GmbH"
-  ],
   "description": "An animated password generator for AngularJS styled to fit the Twitter Bootstrap standard design",
-  "main": [
-    "angular-bootstrap-pwgen.js",
-    "angular-bootstrap-pwgen.css"
-  ],
+  "main": "angular-bootstrap-pwgen.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bodom0015/angular-bootstrap-pwgen.git"
+  },
   "keywords": [
     "angular",
     "angularjs",
@@ -22,19 +23,15 @@
     "password",
     "generator"
   ],
+  "author": "Sebastian Hammerl, Getslash GmbH",
   "license": "MIT",
-  "homepage": "https://github.com/sebastianha/angular-bootstrap-pwgen",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components"
-  ],
+  "bugs": {
+    "url": "https://github.com/bodom0015/angular-bootstrap-pwgen/issues"
+  },
+  "homepage": "https://github.com/bodom0015/angular-bootstrap-pwgen#readme",
   "dependencies": {
     "angular": "^1.2.0",
     "angular-animate": "^1.2.0",
     "bootstrap": "^3.0.0"
-  },
-  "devDependencies": {
-    "angular-scenario": "^1.2.0"
   }
 }
